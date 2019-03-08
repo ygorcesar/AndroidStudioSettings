@@ -1,0 +1,41 @@
+<templateSet group="Kotlin">
+  <template name="jsonclass" value="@JsonClass(generateAdapter = true)" description="Provide annotation to Moshi @JsonClass that genarate adapter" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="respstate" value="val $NAME$ResponseState = MutableLiveData&lt;ViewState&gt;()" description="Create a LiveData with a ViewState that will observe ResponseState on View" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="Value" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_OBJECT_DECLARATION" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="vm" value="private lateinit var viewModel: $VIEW_MODEL$ " description="Create a mutable ViewModel lateinit property" toReformat="false" toShortenFQNames="true">
+    <variable name="VIEW_MODEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_OBJECT_DECLARATION" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="inject" value="@Inject constructor()" description="Provide annotation @Inject of Dagger2" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="iwhenever" value="import org.mockito.Mockito.`when` as whenever" description="Import Mockito when as Whenever" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+</templateSet>
