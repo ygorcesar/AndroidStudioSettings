@@ -64,4 +64,11 @@
       <option name="KOTLIN_EXPRESSION" value="true" />
     </context>
   </template>
+  <template name="utest" value="@Test&#10;fun `$NAME$`() {&#10;    $END$&#10;}" description="Add a unit test function" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_EXPRESSION" value="true" />
+    </context>
+  </template>
 </templateSet>
