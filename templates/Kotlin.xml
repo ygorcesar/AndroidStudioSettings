@@ -53,7 +53,7 @@
       <option name="KOTLIN_EXPRESSION" value="true" />
     </context>
   </template>
-  <template name="stub" value="private fun stub$TARGET$$METHODNAME$($PARAM$: $PARAMTYPE$) {&#10;    whenever(mock$TARGET$.$METHOD$())&#10;        .thenReturn($PARAM$)&#10;}" description="Create a stub function" toReformat="false" toShortenFQNames="true">
+  <template name="stub" value="private fun stub$TARGET$$METHODNAME$($PARAM$: $PARAMTYPE$) {&#10;    every { mock$TARGET$.$METHOD$ } returns $PARAM$&#10;}" description="Create a stub function" toReformat="false" toShortenFQNames="true">
     <variable name="TARGET" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMTYPE" expression="" defaultValue="" alwaysStopAt="true" />
