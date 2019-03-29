@@ -45,7 +45,8 @@
       <option name="KOTLIN_EXPRESSION" value="true" />
     </context>
   </template>
-  <template name="mock" value="@Mock&#10;private lateinit var mock$PROPERTY$: $TYPE$" description="Create property with @Mock of Mockito Annotation" toReformat="false" toShortenFQNames="true">
+  <template name="mock" value="@MockK(relaxed = $RELAXED$)&#10;lateinit var mock$PROPERTY$: $TYPE$" description="Create property with @MockK of MockK(Mock Kotlin) Annotation" toReformat="false" toShortenFQNames="true">
+    <variable name="RELAXED" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PROPERTY" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
