@@ -72,4 +72,11 @@
       <option name="KOTLIN_EXPRESSION" value="true" />
     </context>
   </template>
+  <template name="before" value="@Before&#10;override fun setUp() {&#10;    super.setUp()&#10;    $CODE$&#10;}" description="Create before function to setup class for tests" toReformat="false" toShortenFQNames="true">
+    <variable name="CODE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_EXPRESSION" value="true" />
+    </context>
+  </template>
 </templateSet>
