@@ -79,4 +79,11 @@
       <option name="KOTLIN_EXPRESSION" value="true" />
     </context>
   </template>
+  <template name="jsonname" value="@Json(name = &quot;$PROPERTY$&quot;) val $PROPERTY$: $TYPE$" description="Provide annotation to Moshi @JsonClass that genarate adapter" toReformat="false" toShortenFQNames="true">
+    <variable name="PROPERTY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+    </context>
+  </template>
 </templateSet>
