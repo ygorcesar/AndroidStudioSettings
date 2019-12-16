@@ -86,4 +86,12 @@
       <option name="KOTLIN_CLASS" value="true" />
     </context>
   </template>
+  <template name="onviewid" value="fun $VIEW_ID$(action: $VIEW_TYPE$.() -&gt; Unit) {&#10;    onViewId&lt;$VIEW_TYPE$&gt;(R.id.$VIEW_ID$) { view -&gt; action(view) }&#10;}" description="Create function that fetch view with barista" toReformat="false" toShortenFQNames="true">
+    <variable name="VIEW_ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VIEW_TYPE" expression="" defaultValue="View" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_EXPRESSION" value="true" />
+    </context>
+  </template>
 </templateSet>
