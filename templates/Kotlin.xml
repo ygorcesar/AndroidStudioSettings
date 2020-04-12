@@ -94,4 +94,28 @@
       <option name="KOTLIN_EXPRESSION" value="true" />
     </context>
   </template>
+  <template name="viewbinding" value="private val binding by viewBinding($VIEW$::$ACTION$)" description="Provide a lazy initialization of a View Binding" toReformat="false" toShortenFQNames="true">
+    <variable name="VIEW" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ACTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="viewmodel" value="private val viewModel: $VIEW_MODEL$ by provideViewModel()" description="Provide a lazy initialization of a ViewModel" toReformat="false" toShortenFQNames="true">
+    <variable name="VIEW_MODEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="errorhandler" value="private val errorHandler by uiErrorHandler()" description="Provide a lazy initialization of a UiErrorHandler" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
 </templateSet>
