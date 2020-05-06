@@ -1,7 +1,0 @@
-<application>
-  <component name="FileTypeManager" version="17">
-    <extensionMap>
-      <mapping pattern="setup_deploy_variables.sh" type="PLAIN_TEXT" />
-    </extensionMap>
-  </component>
-</application>
