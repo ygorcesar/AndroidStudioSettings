@@ -1,6 +1,8 @@
 <application>
   <component name="UISettings">
     <option name="MAX_LOOKUP_WIDTH2" value="566" />
+    <option name="SHOW_MEMORY_INDICATOR" value="true" />
+    <option name="showTreeIndentGuides" value="true" />
     <option name="smoothScrolling" value="true" />
   </component>
 </application>
