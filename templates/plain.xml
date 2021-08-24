@@ -1,0 +1,8 @@
+<templateSet group="plain">
+  <template name="psfc" value="public static final class $Class$ {&#10;}" description="public static final Class" toReformat="false" toShortenFQNames="true">
+    <variable name="Class" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,9 @@
+<templateSet group="user">
+  <template name="fbkey" value="try {&#10;            android.content.pm.PackageInfo info = getPackageManager().getPackageInfo(&#10;                    &quot;$package$&quot;,  // replace with your unique package name&#10;                    android.content.pm.PackageManager.GET_SIGNATURES);&#10;            for (android.content.pm.Signature signature : info.signatures) {&#10;                java.security.MessageDigest md = java.security.MessageDigest.getInstance(&quot;SHA&quot;);&#10;                md.update(signature.toByteArray());&#10;                android.util.Log.i(&quot;KeyHash:&quot;, android.util.Base64.encodeToString(md.digest(), android.util.Base64.DEFAULT));&#10;            }&#10;        } catch (android.content.pm.PackageManager.NameNotFoundException e) {&#10;&#10;        } catch (java.security.NoSuchAlgorithmException e) {&#10;&#10;        }" description="Generate Facebook Key Hash" toReformat="true" toShortenFQNames="true">
+    <variable name="package" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

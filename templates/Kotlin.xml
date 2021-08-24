@@ -1,0 +1,121 @@
+<templateSet group="Kotlin">
+  <template name="jsonclass" value="@JsonClass(generateAdapter = true)" description="Provide annotation to Moshi @JsonClass that genarate adapter" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="respstate" value="val $NAME$ResponseState = MutableLiveData&lt;ViewState&gt;()" description="Create a LiveData with a ViewState that will observe ResponseState on View" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="Value" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_OBJECT_DECLARATION" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="vm" value="private lateinit var viewModel: $VIEW_MODEL$ " description="Create a mutable ViewModel lateinit property" toReformat="false" toShortenFQNames="true">
+    <variable name="VIEW_MODEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_OBJECT_DECLARATION" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="inject" value="@Inject constructor()" description="Provide annotation @Inject of Dagger2" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="iwhenever" value="import org.mockito.Mockito.`when` as whenever" description="Import Mockito when as Whenever" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="test" value="@Test&#10;fun $NAME$() {&#10;    $END$&#10;}" description="Add a test function" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="mock" value="@MockK(relaxed = $RELAXED$)&#10;lateinit var mock$PROPERTY$: $TYPE$" description="Create property with @MockK of MockK(Mock Kotlin) Annotation" toReformat="false" toShortenFQNames="true">
+    <variable name="RELAXED" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PROPERTY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="stub" value="private fun stub$TARGET$$METHODNAME$($PARAM$: $PARAMTYPE$) {&#10;    every { mock$TARGET$.$METHOD$ } returns $PARAM$&#10;}" description="Create a stub function" toReformat="false" toShortenFQNames="true">
+    <variable name="TARGET" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMTYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHODNAME" expression="capitalize(METHOD)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="utest" value="@Test&#10;fun `$NAME$`() {&#10;    $END$&#10;}" description="Add a unit test function" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="before" value="@Before&#10;override fun setUp() {&#10;    super.setUp()&#10;    $CODE$&#10;}" description="Create before function to setup class for tests" toReformat="false" toShortenFQNames="true">
+    <variable name="CODE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="jsonname" value="@Json(name = &quot;$PROPERTY$&quot;) val $PROPERTY$: $TYPE$" description="Provide annotation to Moshi @JsonClass that genarate adapter" toReformat="false" toShortenFQNames="true">
+    <variable name="PROPERTY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+    </context>
+  </template>
+  <template name="onviewid" value="fun $VIEW_ID$(action: $VIEW_TYPE$.() -&gt; Unit) {&#10;    onViewId&lt;$VIEW_TYPE$&gt;(R.id.$VIEW_ID$) { view -&gt; action(view) }&#10;}" description="Create function that fetch view with barista" toReformat="false" toShortenFQNames="true">
+    <variable name="VIEW_ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VIEW_TYPE" expression="" defaultValue="View" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="viewbinding" value="private val binding by viewBinding($VIEW$::$ACTION$)" description="Provide a lazy initialization of a View Binding" toReformat="false" toShortenFQNames="true">
+    <variable name="VIEW" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ACTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="viewmodel" value="private val viewModel: $VIEW_MODEL$ by provideViewModel()" description="Provide a lazy initialization of a ViewModel" toReformat="false" toShortenFQNames="true">
+    <variable name="VIEW_MODEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="errorhandler" value="private val errorHandler by uiErrorHandler()" description="Provide a lazy initialization of a UiErrorHandler" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+</templateSet>

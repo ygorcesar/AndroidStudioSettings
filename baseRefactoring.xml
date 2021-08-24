@@ -1,0 +1,9 @@
+<application>
+  <component name="BaseRefactoringSettings">
+    <option name="SAFE_DELETE_SEARCH_IN_NON_JAVA" value="false" />
+  </component>
+  <component name="RefactoringSettings">
+    <option name="RENAME_SEARCH_FOR_TEXT_FOR_CLASS" value="false" />
+    <option name="MOVE_PREVIEW_USAGES" value="false" />
+  </component>
+</application>
