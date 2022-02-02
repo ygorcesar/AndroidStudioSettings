@@ -1,7 +1,9 @@
 <application>
   <component name="UISettings">
+    <option name="HIDE_TABS_IF_NEED" value="false" />
     <option name="IDE_AA_TYPE" value="Greyscale" />
     <option name="MAX_LOOKUP_WIDTH2" value="566" />
+    <option name="SCROLL_TAB_LAYOUT_IN_EDITOR" value="false" />
     <option name="showTreeIndentGuides" value="true" />
   </component>
 </application>
