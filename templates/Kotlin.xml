@@ -118,4 +118,11 @@
       <option name="KOTLIN_TOPLEVEL" value="true" />
     </context>
   </template>
+  <template name="serialized" value="@SerializedName(&quot;$PROPERTY$&quot;) val $PROPERTY$: $TYPE$" description="Provide annotation to Serialized Name @SerializedName" toReformat="false" toShortenFQNames="true">
+    <variable name="PROPERTY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+    </context>
+  </template>
 </templateSet>
