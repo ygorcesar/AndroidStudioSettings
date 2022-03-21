@@ -8,6 +8,7 @@
             <value value="adb-RQCR50019MZ-Fm7HFG._adb-tls-connect._tcp." />
           </Key>
         </key>
+        <lastOnlineTime value="2022-03-21T10:40:08.579040Z" />
         <name value="samsung SM-G991B" />
         <target value="Android 12.0" />
         <api value="31" />
@@ -19,7 +20,7 @@
             <value value="adb-94AY198WM-lV8foj._adb-tls-connect._tcp." />
           </Key>
         </key>
-        <lastOnlineTime value="2022-03-17T17:59:34.412632Z" />
+        <lastOnlineTime value="2022-03-21T10:47:55.336863Z" />
         <name value="Google Pixel 3 XL" />
         <target value="Android 11.0" />
         <api value="30" />
