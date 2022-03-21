@@ -19,10 +19,10 @@
             <value value="adb-RQCR50019MZ-Fm7HFG._adb-tls-connect._tcp." />
           </Key>
         </key>
-        <lastOnlineTime value="2022-03-21T10:40:08.579040Z" />
+        <lastOnlineTime value="2022-03-21T18:58:43.668949Z" />
         <name value="samsung SM-G991B" />
-        <target value="Android 12.0" />
-        <api value="31" />
+        <target value="Android 1.0" />
+        <api value="1" />
       </PhysicalDevice>
       <PhysicalDevice>
         <key>
@@ -31,6 +31,7 @@
             <value value="RQCR50019MZ" />
           </Key>
         </key>
+        <lastOnlineTime value="2022-03-21T18:53:30.752796Z" />
         <name value="samsung SM-G991B" />
         <target value="Android 12.0" />
         <api value="31" />
