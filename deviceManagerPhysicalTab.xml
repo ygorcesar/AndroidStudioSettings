@@ -35,6 +35,18 @@
         <target value="Android 11.0" />
         <api value="30" />
       </PhysicalDevice>
+      <PhysicalDevice>
+        <key>
+          <Key>
+            <type value="SERIAL_NUMBER" />
+            <value value="94AY198WM" />
+          </Key>
+        </key>
+        <lastOnlineTime value="2022-03-24T19:21:44.566311Z" />
+        <name value="Google Pixel 3 XL" />
+        <target value="Android 11.0" />
+        <api value="30" />
+      </PhysicalDevice>
     </physicalDevices>
   </component>
 </application>
