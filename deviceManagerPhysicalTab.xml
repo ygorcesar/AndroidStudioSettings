@@ -30,7 +30,6 @@
             <value value="adb-94AY198WM-lV8foj._adb-tls-connect._tcp." />
           </Key>
         </key>
-        <lastOnlineTime value="2022-03-25T13:02:29.561681Z" />
         <name value="Google Pixel 3 XL" />
         <target value="Android 11.0" />
         <api value="30" />
@@ -42,7 +41,7 @@
             <value value="94AY198WM" />
           </Key>
         </key>
-        <lastOnlineTime value="2022-03-25T13:02:29.465787Z" />
+        <lastOnlineTime value="2022-03-25T13:50:34.370493Z" />
         <name value="Google Pixel 3 XL" />
         <target value="Android 11.0" />
         <api value="30" />
