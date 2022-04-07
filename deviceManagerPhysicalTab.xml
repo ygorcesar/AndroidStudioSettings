@@ -19,31 +19,10 @@
             <value value="adb-RQCR50019MZ-Fm7HFG._adb-tls-connect._tcp." />
           </Key>
         </key>
+        <lastOnlineTime value="2022-04-07T19:13:02.634470Z" />
         <name value="samsung SM-G991B" />
         <target value="Android 12.0" />
         <api value="31" />
-      </PhysicalDevice>
-      <PhysicalDevice>
-        <key>
-          <Key>
-            <type value="DOMAIN_NAME" />
-            <value value="adb-94AY198WM-lV8foj._adb-tls-connect._tcp." />
-          </Key>
-        </key>
-        <name value="Google Pixel 3 XL" />
-        <target value="Android 11.0" />
-        <api value="30" />
-      </PhysicalDevice>
-      <PhysicalDevice>
-        <key>
-          <Key>
-            <type value="SERIAL_NUMBER" />
-            <value value="94AY198WM" />
-          </Key>
-        </key>
-        <name value="Google Pixel 3 XL" />
-        <target value="Android 11.0" />
-        <api value="30" />
       </PhysicalDevice>
     </physicalDevices>
   </component>
