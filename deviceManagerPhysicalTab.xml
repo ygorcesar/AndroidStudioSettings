@@ -12,6 +12,18 @@
         <target value="Android 12.0" />
         <api value="31" />
       </PhysicalDevice>
+      <PhysicalDevice>
+        <key>
+          <Key>
+            <type value="SERIAL_NUMBER" />
+            <value value="RQCR50019MZ" />
+          </Key>
+        </key>
+        <lastOnlineTime value="2022-05-02T20:38:08.777148Z" />
+        <name value="samsung SM-G991B" />
+        <target value="Android 1.0" />
+        <api value="1" />
+      </PhysicalDevice>
     </physicalDevices>
   </component>
 </application>
