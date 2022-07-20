@@ -6,5 +6,6 @@
     <mask>*Api.kt</mask>
     <mask>strings.xml</mask>
     <mask>*.kt</mask>
+    <mask>*.gradle</mask>
   </component>
 </application>
