@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="All Places" />
-    <option name="defaultScopeName" value="All Places" />
-    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="customScope" value="Directory '…/pix [Digio.pix]'" />
+    <option name="defaultScopeName" value="Directory '…/pix [Digio.pix]'" />
+    <option name="SEARCH_SCOPE" value="Directory '…/pix [Digio.pix]'" />
     <mask>*Api.kt</mask>
     <mask>strings.xml</mask>
     <mask>*.kt</mask>
