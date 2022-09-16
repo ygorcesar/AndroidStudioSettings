@@ -4,11 +4,10 @@
       <PhysicalDevice>
         <key>
           <Key>
-            <type value="DOMAIN_NAME" />
-            <value value="adb-RQCR50019MZ-Fm7HFG._adb-tls-connect._tcp." />
+            <type value="SERIAL_NUMBER" />
+            <value value="RQCR50019MZ" />
           </Key>
         </key>
-        <lastOnlineTime value="2022-05-17T18:07:59.264950Z" />
         <name value="samsung SM-G991B" />
         <target value="Android 12.0" />
         <api value="31" />
@@ -16,8 +15,8 @@
       <PhysicalDevice>
         <key>
           <Key>
-            <type value="SERIAL_NUMBER" />
-            <value value="RQCR50019MZ" />
+            <type value="DOMAIN_NAME" />
+            <value value="adb-RQCR50019MZ-Fm7HFG._adb-tls-connect._tcp." />
           </Key>
         </key>
         <name value="samsung SM-G991B" />
