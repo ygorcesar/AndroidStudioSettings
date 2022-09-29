@@ -1,8 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mx.com.talaqa" />
+    <option name="mostRecentlyUsed" value="package:mx.com.talaqa tag:OkHttp " />
     <option name="nonFavorites">
       <list>
+        <option value="package:mx.com.talaqa tag:OkHttp " />
         <option value="package:mx.com.talaqa" />
         <option value="tag:okhttp.OkHttpClient " />
         <option value="package:com.fcagroup.cart.dev " />
